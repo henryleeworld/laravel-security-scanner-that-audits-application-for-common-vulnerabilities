@@ -1,4 +1,4 @@
-# Laravel 12 用於稽核應用程式常見漏洞的安全掃描
+# Laravel 13 用於稽核應用程式常見漏洞的安全掃描
 
 引入 andreapollastri 的 checkpoint 套件來擴增用於稽核應用程式常見漏洞的安全掃描，只需執行單一 Artisan 指令列，即可檢查常見漏洞與暴露（CVE）、已寫死機密、SQL 注入及跨網站指令碼（XSS）等項目。
 
@@ -24,5 +24,5 @@ $ php artisan checkpoint:scan
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/WLCKA2b.png)
+![](https://i.imgur.com/rLhqT9S.png)
 > 對原始碼進行檢測，並不會攔截套件的安裝流程認
